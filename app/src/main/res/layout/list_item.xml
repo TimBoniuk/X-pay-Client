@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/backplusline"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_weight=""
+        android:background="@drawable/sprava_line"
+        android:gravity="center"
+        android:text="12/02/23:10"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/sprava_line"
+        android:gravity="center"
+        android:text="Penny Cohen"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/sprava_line"
+        android:gravity="center"
+        android:text="98654334211"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/sprava_line"
+        android:gravity="center"
+        android:text="Active"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vector_l_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vector_l_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vector_l_3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vector_l_4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
