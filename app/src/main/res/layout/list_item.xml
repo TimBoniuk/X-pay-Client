@@ -9,7 +9,7 @@
         android:id="@+id/t2"
         android:layout_width="140dp"
         android:layout_height="match_parent"
-        android:layout_weight=""
+        android:layout_weight="2"
         android:background="@drawable/sprava_line"
         android:gravity="center"
         android:text="12/02/23:10"
